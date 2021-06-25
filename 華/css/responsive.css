@@ -1,0 +1,201 @@
+@media(min-width:770px){
+  #res-apuri{display: none}
+}
+
+@media(max-width:800px){
+  #detail{
+  	display: block;
+  }
+
+  .left2{
+  	background-color:#F5F5F5;width:100%;height:580px;
+  }
+
+  .right2{
+    background-color: white;width: 100%;height: auto;
+  }
+
+  .right2 img{width: 170px;margin-bottom: 65px}
+
+  .right2 p{margin: 70px 0 16px 0;font-size: 20px;}
+}
+
+@media(max-width:770px){
+  #home{
+    background-image: url(../images/bg_header_pink.jpg);
+    height:768px;
+    background-position:bottom center;
+    background-size: 250% cover;
+    width: 100%;
+  }
+
+  .home-top img{
+  	margin: 100px 0px 30px 0px;
+  	height: 113px;
+  	width: 135px;
+  }
+
+  .home-bottom img{
+  	display: none;
+  }
+
+  .home-bottom{
+  	margin-top:360px;
+  	text-align: center;
+  }
+
+  .home-bottom p{
+  	font-size: 13px;
+  	color: white;
+  	padding: 58px 0 40px 0;
+  }
+
+  /*#how--------*/
+  #how{
+  	display: block;
+  }
+
+  .left,.center,.right{
+    background-position:bottom center;
+    width: 100%;height: 542px;}
+
+  #how h3{
+    	font-size:24px;margin:0px 30px;
+      padding-top: 50px;}
+
+  #how p{
+  font-size: 15px;padding:13px 30px;
+  }
+
+  /*#what-------------------*/
+  #what{
+  	display: block;
+    position: relative;
+    padding: 0px 0px;
+  }
+
+  .right3 h2{position: absolute;font-size: 22px;width: 100%;
+    top:100px;left: 50%;transform: translateX(-50%);padding: 0px 0px}
+
+  .left3{
+    	width:300px;background-color:#EAD5DC;height:300px;
+    	background-image: url(../images/bg_flower-1.jpg);
+    	background-size: contain;
+    	background-position: center;
+    	background-repeat: no-repeat;
+      position: absolute;
+      top:140px;left:50%;transform: translateX(-50%);
+    }
+
+  .right3{width: 100%;background-color:#EAD5DC}
+
+  .what-setumei{width: 100%;
+    padding-top: 450px;margin: 0 auto;padding-bottom: 100px;}
+
+  .what-setumei p{width: 300px;,margin: 0 auto;}
+
+  /*price---------------------------------*/
+  #price{
+  	display: block;
+  	text-align: center;
+    position: relative;
+  }
+
+  .left4 h2{position: absolute;font-size: 22px;
+    top:100px;left: 50%;transform: translateX(-50%);
+    padding: 0px 0px;width: 100%;}
+
+  .price-title p{
+    position: absolute;
+  	font-size: 14px;margin-bottom: 110px;
+  	font-weight: bold;
+  	background-color: white;
+  	display: inline-block;
+    top:200px;left: 50%;transform: translateX(-50%);
+    padding: 0px 10px
+  }
+
+  .left4{width: 100%;padding-left:0px;}
+
+  .right4{width: 300px;background-color:#E7E3DF;height: 400px;
+  background-image: url(../images/bg_vase-45.jpg);
+  background-size: contain;
+  background-position:center;
+  background-size: 100%;
+  padding-left: 0%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:250px;left:50%;transform: translateX(-50%);
+}
+
+  .utuwa{padding-top: 680px;
+	width: 100%;margin: 0 0;
+}
+
+.utuwa-ue{
+  font-size: 15px;
+  padding-bottom: 25px;
+  width:343px;
+}
+
+.utuwa-imag{width: 343px;margin: 0 auto;}
+
+.utuwa-sita{width:343px;margin: 0 auto;padding-bottom: 80px;}
+
+.utuwa-naka{width: 343px;margin: 0 auto;}
+
+.utuwa-naka-price{
+	padding: 5px 2px;
+	margin-right: 15px;
+}
+
+/*saigo----------------------------*/
+#saigo{
+	height: 420px;background-color: #EFDFC5;
+	background-image: url(../images/bg_download2.jpg);
+	background-size: contain;
+	background-position:center bottom;
+	background-repeat: no-repeat;
+	position: relative;
+  padding-top: 35%;
+}
+
+.logo{text-align: center;position: absolute;top:60px;
+  left:50%;transform: translateX(-50%);
+}
+
+/*footer----------------------------------*/
+.footer-contents{height: 250px;width: 80%;margin: 0 auto;}
+
+.left5-menu{
+	display: block;}
+
+.left5 li{margin-bottom: 15px;}
+
+.right5{width:50%;}
+
+.right5 img{
+	width: 60px;height: auto;float: left;margin-top: 30px;
+	padding-right: 10px;
+}
+.right5-menu{display: flex;}
+
+}
+
+
+@media(max-width:635px){
+/*hosyou--------------------------------*/
+
+#hosyou{height: auto;;}
+
+.hosyou-contens{
+	display: block;;margin: 0 auto;justify-content:none;
+  padding-bottom: 100px;
+	}
+
+.hosyou-title h2{padding: 108px 0 30px 0;font-size: 22px;}
+
+.hosyou-item h3{font-size:20px}
+
+.hosyou-item p{padding-bottom: 15px}
+}
